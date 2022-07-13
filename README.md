@@ -33,3 +33,32 @@ git clone https://github.com/kubeflow/examples.git
 
 ### Paso 3: Abra el ejemplo de Churn. Complete en el notebook la dirección del host para que funcione.
 
+
+
+### Referencias
+
+Ejemplos Benchmark Kubeflow:
+https://www.kubeflow.org/docs/components/pipelines/tutorials/benchmark-examples/
+https://www.kubeflow.org/docs/components/notebooks/container-images/
+https://storage.googleapis.com/ml-pipeline/sample-benchmark/run_service_api.ipynb
+
+Instalar KubeFlow en Ubuntu:
+https://charmed-kubeflow.io/docs/quickstart
+https://computingforgeeks.com/deploy-kubernetes-cluster-on-ubuntu-with-kubeadm/
+
+Otras instalaciones:
+https://www.kubeflow.org/docs/started/installing-kubeflow/
+https://minikube.sigs.k8s.io/docs/start/
+
+Utilizar Minikube
+https://cloudnative.mx/segunda-parte-kubernetes-usando-minikube/
+
+Utilizar Kubernetes
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+
+Verificando que Kubernetes funciona:
+
+```
+sudo kubeadm init
+```
